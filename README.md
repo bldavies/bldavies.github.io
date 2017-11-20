@@ -1,4 +1,4 @@
-# I'm Ben Davies.
+**I'm Ben Davies**.
 
 I recently completed a BSc(Hons) in Economics and Mathematics at the [University of Canterbury](http://www.canterbury.ac.nz), and will join [Motu Economic and Public Policy Research](http://motu.nz) as a Research Analyst in early 2018.
 
