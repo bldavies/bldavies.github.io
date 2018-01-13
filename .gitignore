@@ -1,0 +1,12 @@
+# sass
+*.css.map
+*.scss
+*.scssc
+
+# tex
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+cv.tex

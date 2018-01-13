@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+html {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinksMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  line-height: 1.75; }
+  @media (max-width: 576px) {
+    html {
+      font-size: 16px;
+      line-height: 1.5; } }
+
+body {
+  background-color: #fafafa;
+  min-height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+  body a {
+    color: #5a96f0;
+    text-decoration: none; }
+    body a:hover {
+      text-decoration: underline; }
+    body a.anchor {
+      display: block;
+      position: relative;
+      top: calc(-60px);
+      visibility: hidden; }
+
+header {
+  background-color: #323232;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10; }
+  header a,
+  header nav a {
+    color: #e6e6e6;
+    display: inline-block;
+    line-height: 60px; }
+    header a.active, header a:hover,
+    header nav a.active,
+    header nav a:hover {
+      color: #82befa;
+      text-decoration: none; }
+  header nav {
+    display: inline-block; }
+    header nav a {
+      padding: 0 0.5rem; }
+      header nav a.active {
+        border-bottom: 0.2rem #82befa solid;
+        line-height: calc(60px - 0.4rem); }
+    @media (max-width: 480px) {
+      header nav {
+        display: none; } }
+  header .title {
+    color: #82befa;
+    font-weight: 600;
+    margin-right: 2rem;
+    text-transform: uppercase; }
+
+.banner {
+  display: block;
+  min-width: 100%;
+  overflow: hidden;
+  width: 640px; }
+
+.container {
+  margin: 0 auto;
+  max-width: 768px;
+  padding: 0 1.5rem; }
+
+footer {
+  background-color: #323232;
+  color: #e6e6e6; }
+  footer a {
+    color: #82befa;
+    text-decoration: none; }
+  footer .legal {
+    bottom: 0;
+    font-size: small;
+    padding: 1rem 0;
+    position: relative;
+    text-align: center; }
+  footer .social {
+    font-size: 1.5rem;
+    line-height: 1;
+    text-align: center; }
+    @media (max-width: 480px) {
+      footer .social {
+        font-size: 2rem; } }
+    footer .social a {
+      display: inline-block;
+      padding: 1rem; }
+      @media (max-width: 480px) {
+        footer .social a {
+          width: 100%; } }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 2rem 0 1rem; }
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.125;
+  padding-top: 1rem; }
+
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.25; }
+
+p, ul, ol {
+  margin: 0 0 1rem; }
+
+/*# sourceMappingURL=index.css.map */
