@@ -16,7 +16,6 @@ html {
   line-height: 1.75; }
   @media (max-width: 576px) {
     html {
-      font-size: 16px;
       line-height: 1.5; } }
 
 body {
@@ -69,15 +68,15 @@ header {
     text-transform: uppercase; }
 
 .banner {
-  display: block;
-  min-width: 100%;
-  overflow: hidden;
-  width: 640px; }
+  overflow: hidden; }
+  .banner img {
+    max-width: 100%;
+    min-width: 640px; }
 
 .container {
   margin: 0 auto;
   max-width: 768px;
-  padding: 0 1.5rem; }
+  padding: 0 1rem; }
 
 footer {
   background-color: #323232;
