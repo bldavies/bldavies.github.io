@@ -1,7 +1,10 @@
-# sass
-*.css.map
-*.scss
-*.scssc
+# files
+cv.tex
+
+# jekyll
+_site
+.sass-cache
+.jekyll-metadata
 
 # tex
 *.aux
@@ -9,4 +12,3 @@
 *.fls
 *.log
 *.synctex.gz
-cv.tex
