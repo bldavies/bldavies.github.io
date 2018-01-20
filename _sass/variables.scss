@@ -1,0 +1,20 @@
+// Colors
+
+$main-color: darkorange;
+$link-color: $main-color;
+$nav-bg: $main-color;
+$nav-color: white;
+
+
+// Font stacks
+
+$font-stack: "Merriweather", -apple-system, BlinksMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+
+// Widths and breakpoints
+
+$nav-width-sm: 240px;
+$nav-width-lg: 320px;
+
+$breakpoint-sm: 640px;
+$breakpoint-lg: 960px;
