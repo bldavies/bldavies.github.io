@@ -2,6 +2,7 @@
 cv.tex
 
 # jekyll
+_drafts
 _site
 .sass-cache
 .jekyll-metadata

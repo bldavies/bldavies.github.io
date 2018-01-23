@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="post-meta">
+  <p>
+    Posted
+    <!-- {% if page.category %} -->
+      <!-- in {{ page.category }} -->
+    <!-- {% endif %} -->
+    on {{ page.date | date: "%B %e, %Y" }}.
+  </p>
+</div>
