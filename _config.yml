@@ -4,14 +4,11 @@ email: ben.davies@motu.org.nz
 
 # Social links
 github-url:  https://github.com/bldavies
-instagram-url: https://www.instagram.com/bl.davies/
 linkedin-url: https://www.linkedin.com/in/nzbendavies/
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
-
-# Include folders
 include:
   - _pages
