@@ -114,13 +114,22 @@ body {
     text-transform: uppercase;
   }
 
+  .post-feed,
   .post-list {
     list-style: none;
     padding: 0;
+  }
 
-    time {
-      margin-left: 0.5rem;
+  .post-feed li {
+    border-bottom: 1px solid #cccccc;
+
+    &:last-child {
+      border: none;
     }
+  }
+
+  .post-list time {
+    margin-left: 0.5rem;
   }
 }
 
