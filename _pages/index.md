@@ -1,8 +1,9 @@
 ---
-permalink: /about
-title: About
+permalink: /
 layout: default
 ---
+
+**I'm Ben Davies.**
 
 I'm a research analyst at [Motu](http://motu.nz), an economic and public policy research institute in Wellington, New Zealand.
 I joined Motu in early 2018 after completing a BSc(Hons) in economics and mathematics at the University of Canterbury (UC).
