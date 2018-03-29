@@ -136,7 +136,8 @@ header {
   }
 
   nav {
-    float: right;
+    display: inline-block;
+    margin-left: 2rem;
 
     a {
       font-size: 85%;
@@ -148,10 +149,6 @@ header {
         color: $primary;
       }
     }
-  }
-
-  .title {
-    font-size: 1.25rem;
   }
 }
 
