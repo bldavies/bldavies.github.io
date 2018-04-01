@@ -124,6 +124,7 @@ body {
 }
 
 header {
+  font-weight: bold;
 
   a {
     color: white;
@@ -141,8 +142,8 @@ header {
 
     a {
       font-size: 85%;
+      color: lighten($primary, 30%);
       padding: 0 0.5rem;
-      text-transform: uppercase;
 
       &:hover {
         background-color: white;
@@ -153,13 +154,17 @@ header {
 }
 
 footer {
-  color: white;
+  color: lighten($primary, 30%);
   font-size: 85%;
   text-align: center;
 
   a {
-    color: white;
-    text-decoration: underline;
+    color: lighten($primary, 40%);
+
+    &:hover {
+      color: white;
+      text-decoration: underline;
+    }
   }
 }
 
