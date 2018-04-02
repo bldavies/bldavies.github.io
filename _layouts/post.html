@@ -2,6 +2,15 @@
 layout: default
 ---
 
-<time>Posted on {{ page.date | date: "%B %e, %Y" }}.</time>
+<div class="banner">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    <p>
+      <time>Posted on {{ page.date | date: "%B %e, %Y" }}</time>
+    </p>
+  </div>
+</div>
 
-{{ content }}
+<div class="container">
+  {{ content }}
+</div>

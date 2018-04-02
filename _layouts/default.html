@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {% include head.html %}
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
   </head>
   <body>
     <header>
       <div class="container">
-        {% include header.html %}
+        <a href="/">{{ site.title }}</a>
+        <nav>
+          <a href="/#about">About</a>
+          <a href="/#research">Research</a>
+          <a href="/blog">Blog</a>
+        </nav>
       </div>
     </header>
-    <div class="main">
-      <div class="container">
-        {% if page.title %}
-          <h1>{{ page.title }}</h1>
-        {% endif %}
-        {{ content }}
-      </div>
-    </div>
+
+    {{ content }}
+
     <footer>
-      {% include footer.html %}
+      <div class="container">
+        <div class="footer-legal">
+          &copy; 2018 {{ site.author }}
+        </div>
+        <div class="footer-links">
+          <a href="mailto:{{ site.email }}">Email</a>
+          <a href="{{ site.github-url }}">GitHub</a>
+          <a href="{{ site.linkedin-url }}">LinkedIn</a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

@@ -1,10 +1,6 @@
 ---
 ---
 
-// Colors
-$primary: #0074D9;
-$links: $primary;
-
 // Font stacks
 $body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $mono-font: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace !default;
@@ -16,14 +12,13 @@ $mono-font: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monos
 }
 
 body {
-  background-color: $primary;
   font-family: $body-font;
   font-size: 16px;
   line-height: 1.5;
   margin: 0;
 
   a {
-    color: $links;
+    color: #1269d3;
     text-decoration: none;
     transition: 0.2s;
 
@@ -68,13 +63,44 @@ body {
     display: block;
     margin: auto;
     max-width: 100%;
-    min-width: 300px;
-    text-align: center;
+
+    &.portrait {
+      border-radius: 100%;
+      float: right;
+      margin: 1rem;
+      margin-right: 0;
+      max-width: 200px;
+      width: 30%;
+
+      @media (max-width: 480px) {
+        float: none;
+        margin: auto;
+      }
+    }
+  }
+
+  ol,
+  p,
+  ul {
+    margin: 1rem 0;
   }
 
   ol,
   ul {
     padding-left: 2rem;
+
+    &.blog-index {
+      list-style: none;
+      padding: 0;
+
+      li {
+        border-top: 1px solid #ddd;
+
+        &:first-child {
+          border-top: none;
+        }
+      }
+    }
   }
 
   pre {
@@ -97,7 +123,6 @@ body {
 
   td,
   th {
-    line-height: 1.5;
     padding: 0 0.5rem;
     vertical-align: top;
   }
@@ -108,74 +133,77 @@ body {
   }
 
   time {
-    color: #999999;
-    font-size: 85%;
+    color: #888;
+    font-size: 80%;
     text-transform: uppercase;
   }
 
-  .post-list {
-    list-style: none;
-    padding: 0;
-
-    time {
-      margin-left: 0.5rem;
-    }
-  }
-}
-
-header {
-  font-weight: bold;
-
-  a {
+  header {
+    background-color: #333;
     color: white;
-    display: inline-block;
-    line-height: 2rem;
-
-    &:hover {
-      text-decoration: none;
-    }
-  }
-
-  nav {
-    display: inline-block;
-    margin-left: 2rem;
+    font-size: 90%;
+    font-weight: 600;
 
     a {
-      font-size: 85%;
-      color: lighten($primary, 30%);
-      padding: 0 0.5rem;
+      color: inherit;
+      display: inline-block;
+      margin: 1rem 1rem 1rem 0;
 
       &:hover {
-        background-color: white;
-        color: $primary;
+        color: white;
+        text-decoration: none;
+      }
+    }
+
+    nav {
+      color: #ccc;
+      display: inline;
+      margin-left: 1rem;
+    }
+  }
+
+  footer {
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    font-size: 80%;
+    padding: 2rem 0;
+
+    .footer-legal,
+    .footer-links {
+      display: inline-block;
+    }
+
+    .footer-links {
+      float: right;
+
+      a {
+        margin-left: 1rem;
       }
     }
   }
-}
 
-footer {
-  color: lighten($primary, 30%);
-  font-size: 85%;
-  text-align: center;
+  .banner {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0;
+  }
 
-  a {
-    color: lighten($primary, 40%);
+  .container {
+    margin: auto;
+    max-width: 768px;
+    padding: 0 1rem;
 
-    &:hover {
-      color: white;
-      text-decoration: underline;
+    &::after {
+      clear: both;
+      content: "";
+      display: table;
+    }
+
+    &::before {
+      display: table;
+      content: "";
     }
   }
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 720px;
-  padding: 1rem;
-}
-
-.main {
-  background-color: white;
 }
 
 .c, .c1 { color: #AAAAAA; font-style: italic;}  // Comments
