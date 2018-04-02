@@ -204,6 +204,10 @@ body {
       content: "";
     }
   }
+
+  .content {
+    min-height: calc(100vh - 3.5rem - 5.5rem);
+  }
 }
 
 .c, .c1 { color: #AAAAAA; font-style: italic;}  // Comments
