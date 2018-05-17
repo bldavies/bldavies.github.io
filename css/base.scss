@@ -157,7 +157,7 @@ body {
   
     nav {
       color: #c8c9cb;
-      display: inline;
+      display: inline-block;
     }
   }
   
@@ -176,7 +176,24 @@ body {
       float: right;
 
       a {
+        display: inline-block;
         margin-left: 1rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .footer-legal,
+      .footer-links {
+        display: block;
+        text-align: center;
+      }
+
+      .footer-links {
+        float: none;
+
+        a {
+          margin: 1rem 0.5rem 0;
+        }
       }
     }
   }
