@@ -25,8 +25,14 @@ body {
     }
   }
 
-  blockquote, ol, p, pre, ul, table {
+  blockquote, ol, p, pre, ul {
     margin: 1rem 0;
+  }
+
+  blockquote {
+    border-left: 0.25rem solid #dfe2e5;
+    color: #6a737d;
+    padding: 0 1rem;
   }
 
   code, pre {
@@ -112,7 +118,8 @@ body {
 
   table {
     border-collapse: collapse;
-    margin: auto;
+    font-size: 90%;
+    margin: 1rem auto;
     overflow: auto;
   
     td, th {
