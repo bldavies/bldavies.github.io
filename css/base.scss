@@ -120,10 +120,8 @@ body {
     border-collapse: collapse;
     font-size: 90%;
     margin: 1rem auto;
-    overflow: auto;
   
     td, th {
-      border: 1px solid #eee;
       border: 1px solid #dfe2e5;
       padding: 0.375rem 0.75rem;
       vertical-align: top;
@@ -134,7 +132,6 @@ body {
     }
   
     tr:nth-child(2n) {
-      background-color: #f5f5f5;
       background-color: #f6f8fa;
     }
   }
@@ -223,8 +220,8 @@ body {
     }
   
     &::before {
-      display: table;
       content: "";
+      display: table;
     }
   }
   
