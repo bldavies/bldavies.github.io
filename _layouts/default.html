@@ -10,6 +10,14 @@
         | {{ page.title }}
       {% endif %}
     </title>
+    {% if site.google-analytics and jekyll.environment == 'production' %}
+      <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', '{{ site.google-analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+      <script async src='https://www.google-analytics.com/analytics.js'></script>
+    {% endif %}
   </head>
   <body>
     <header>
