@@ -2,9 +2,13 @@
 title: Ben Davies
 author: Ben Davies
 email: ben.davies@motu.org.nz
-github-url:  https://github.com/bldavies
 google-analytics: UA-123726505-1
+
+# Profiles
+github-url:  https://github.com/bldavies
+google-scholar-url: https://scholar.google.co.nz/citations?user=iet9PyAAAAAJ
 linkedin-url: https://www.linkedin.com/in/bl-davies/
+repec-url: https://ideas.repec.org/f/pda777
 
 # Build settings
 markdown: kramdown
