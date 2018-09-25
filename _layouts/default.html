@@ -7,7 +7,7 @@
     <title>
       {{ site.title }}
       {% if page.title %}
-        | {{ page.title }}
+        | {{ page.title | remove: "*" }}
       {% endif %}
     </title>
     {% if site.google-analytics and jekyll.environment == 'production' %}
