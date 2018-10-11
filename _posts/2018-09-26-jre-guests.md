@@ -2,7 +2,6 @@
 title: Guest Appearances on *The Joe Rogan Experience*
 layout: post
 date: 2018-09-26 22:33:00 +1200
-permalink: /jre-guests
 tags: [Joe Rogan, podcasts, Google Trends, time series, signal processing, R]
 ---
 

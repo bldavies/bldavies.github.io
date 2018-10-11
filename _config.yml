@@ -16,3 +16,6 @@ plugins:
   - jekyll-feed
 include:
   - _pages
+collections:
+  posts:
+    permalink: /blog/:title/
