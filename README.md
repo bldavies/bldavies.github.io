@@ -1,4 +1,2 @@
-# bldavies.github.io
-
-This repository contains the data used to build [my personal website](https://bldavies.github.io).
-I use [Jekyll](https://jekyllrb.com) to transform these data into a static site whenever I push changes to GitHub.
+This is the old repository for [my personal website](https://bldavies.com).
+The new repository is available [here](https://github.com/bldavies/personal-website).
